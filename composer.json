@@ -1,0 +1,17 @@
+{
+	"name": "silverstripe/composer-installer",
+	"type": "composer-installer",
+	"description": "SilverStripe Framework Composer module and theme installers.",
+	"keywords": ["silverstripe", "composer", "installer"],
+	"autoload": {
+		"psr-0": {
+			"SilverStripe\\ComposerInstaller": "src/"
+		}
+	},
+	"extra": {
+		"class": [
+			"SilverStripe\\Framework\\ComposerInstaller\\ModuleInstaller",
+			"SilverStripe\\Framework\\ComposerInstaller\\ThemeInstaller"
+		]
+	}
+}
