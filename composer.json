@@ -10,8 +10,8 @@
 	},
 	"extra": {
 		"class": [
-			"SilverStripe\\Framework\\ComposerInstaller\\ModuleInstaller",
-			"SilverStripe\\Framework\\ComposerInstaller\\ThemeInstaller"
+			"SilverStripe\\ComposerInstaller\\ModuleInstaller",
+			"SilverStripe\\ComposerInstaller\\ThemeInstaller"
 		]
 	}
 }

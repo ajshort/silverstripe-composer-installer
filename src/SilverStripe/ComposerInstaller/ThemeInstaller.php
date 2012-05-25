@@ -3,7 +3,7 @@
  * @package silverstripe-composer-installer
  */
 
-namespace SilverStripe\Framework\ComposerInstaller;
+namespace SilverStripe\ComposerInstaller;
 
 use Composer\Installer\LibraryInstaller;
 use Composer\Package\PackageInterface;
