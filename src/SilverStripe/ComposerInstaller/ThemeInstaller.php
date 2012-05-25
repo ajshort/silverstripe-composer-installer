@@ -21,7 +21,8 @@ class ThemeInstaller extends LibraryInstaller {
 	}
 
 	public function getInstallPath(PackageInterface $package) {
-		return "themes/" . array_pop(explode('/', $package->getName()));
+		$parts = explode('/', $package->getName());
+		return "themes/" . end($parts);
 	}
 
 }

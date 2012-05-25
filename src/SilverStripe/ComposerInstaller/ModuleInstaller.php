@@ -21,7 +21,8 @@ class ModuleInstaller extends LibraryInstaller {
 	}
 
 	public function getInstallPath(PackageInterface $package) {
-		return array_pop(explode('/', $package->getName()));
+		$parts = explode('/', $package->getName());
+		return end($parts);
 	}
 
 }
