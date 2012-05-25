@@ -17,7 +17,7 @@ use Composer\Package\PackageInterface;
 class ModuleInstaller extends LibraryInstaller {
 
 	public function supports($type) {
-		return $type == 'silverstripe-module';
+		return $type == 'silverstripe-module' || $type == 'silverstripe-widget';
 	}
 
 	public function getInstallPath(PackageInterface $package) {
